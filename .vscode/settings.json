@@ -1,0 +1,15 @@
+{
+  "deno.enable": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.formatOnSave": true,
+  "deno.suggest.completeFunctionCalls": true,
+  "deno.config": "./deno.json",
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "cSpell.words": [
+    "pocketbase",
+    "preshared",
+    "versionstamp"
+  ]
+}

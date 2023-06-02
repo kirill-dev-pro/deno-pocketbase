@@ -1,0 +1,29 @@
+{
+  "tasks": {
+    "dev": "deno run --unstable --allow-all ./src/main.ts",
+    "dev:watch": "deno run --watch --allow-all ./src/main.ts"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true
+  },
+  "lint": {
+    "files": {
+      "include": ["scripts/"]
+    },
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "options": {
+      "useTabs": false,
+      "lineWidth": 100,
+      "indentWidth": 2,
+      "singleQuote": true,
+      "semiColons": false,
+      "proseWrap": "preserve"
+    }
+  },
+  "importMap": "./importMap.json"
+}

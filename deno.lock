@@ -1,0 +1,15 @@
+{
+  "version": "2",
+  "remote": {},
+  "npm": {
+    "specifiers": {
+      "pocketbase": "pocketbase@0.15.1"
+    },
+    "packages": {
+      "pocketbase@0.15.1": {
+        "integrity": "sha512-iOj9bCP7m/kQDhkJZiLXWYNYXwZg+MeCFwJeivM46Uj4QwqzzQPeZH195TPicnj2VwxiSkziVnDNke1Mc9VEaA==",
+        "dependencies": {}
+      }
+    }
+  }
+}
